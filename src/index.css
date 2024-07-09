@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.box {
+  background-color: black;
+  color: white;
+}
+
+.box:hover {
+  cursor: pointer;
+}
+
+.box.winner {
+  background-color: gold;
+}
